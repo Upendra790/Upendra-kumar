@@ -1,0 +1,54 @@
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+    color:white;
+}
+
+.trafficboard{
+    background-color:rgba(255, 255, 255, 0.965);
+    width: 120px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#t1{
+    background-color: gray;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.t2,.t3{
+    background-color: gray;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+#t1:hover{
+    background-color: red;
+}
+.t2:hover{
+   background-color: green;
+}
+    
+.t3:hover{
+    background-color: yellow;
+}   
+  
+    
+    
+ 
+
+
